@@ -88,7 +88,7 @@ class SalesPerson:
 
         self.pants_sold.append(pants_object)
 
-    def display_sales(self):
+    def display_sales(self):      #if no attr args in this method then just use "(self)"
         """The display_sales method prints out all pants that have been sold
 
         Args: None
