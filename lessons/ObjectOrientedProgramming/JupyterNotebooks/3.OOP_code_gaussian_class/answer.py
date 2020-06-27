@@ -83,7 +83,7 @@ class Gaussian():
         
         """
             
-        with open(file_name) as file:
+        with open(file_name) as file:  #there is no need to call file.close() when using with statement. The with statement itself ensures proper acquisition and release of resources.
             data_list = []
             line = file.readline()
             while line:
